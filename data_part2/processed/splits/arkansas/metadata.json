@@ -1,0 +1,38 @@
+{
+  "state_name": "arkansas",
+  "n_classes": 5,
+  "train_size": 960,
+  "val_size": 240,
+  "test_size": 4652,
+  "total_samples": 6237,
+  "s2_shape": [
+    6237,
+    360
+  ],
+  "env_shape": [
+    6237,
+    8
+  ],
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B8A",
+    "B11",
+    "B12"
+  ],
+  "env_vars": [
+    "bio01_temp",
+    "bio12_precip",
+    "bio15_precip_season",
+    "elevation",
+    "landforms",
+    "soil_clay",
+    "soil_oc",
+    "soil_ph"
+  ]
+}
